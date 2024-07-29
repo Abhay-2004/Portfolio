@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Prasanna Rao - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">Abhay</a>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div id="particles-js"></div>
+        <div class="content">
+            <h2>Hi There,<br/> I'm <span>Abhay Prasanna Rao</span></h2>
+            <p><span>I am a Software Developer</span></p>
+            <p><span>Major: Computer Science <br> Minors: Data Science and Artificial Intelligence</span></p>
+            <p>i am into <span class="typing-text"></span></p>
+            <a href="#about" class="btn"><span>About Me</span>
+                <i class="fas fa-arrow-circle-down"></i>
+            </a>
+            <div class="socials">
+                <ul class="social-icons">
+                    <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/abhay-prasanna-rao" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="github" aria-label="GitHub" href="https://github.com/Abhay-2004" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a class="youtube" aria-label="Youtube" href="https://www.youtube.com/channel/UCwc6_sPm-zyVb-os5Qjlxeg" target="_blank"><i class="fab fa-youtube"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="image">
+            <img draggable="false" class="tilt" src="./assets/images/abhay2.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+        
+        <div class="row">
+            <div class="image">
+                <img draggable="false" class="tilt" src="./assets/images/abhay4.jpeg" alt="">
+            </div>
+            <div class="content">
+                <h3>I'm Abhay</h3>
+                <span class="tag">Computer Science Student</span>
+                
+                <p>I am a Computer Science student at Iowa State University, with a minor in Data Science & Artificial Intelligence. I'm passionate about developing applications and websites, and I have experience in both frontend and backend technologies. I enjoy working on projects that challenge me and allow me to apply my skills in innovative ways.</p>
+                
+                <div class="box-container">
+                    <div class="box">
+                        <p><span> email : </span> Abhay14@iastate.edu</p>
+                        <p><span> place : </span> Ames, Iowa</p>
+                    </div>
+                </div>
+                
+                <div class="resumebtn">
+                    <a href="https://drive.google.com/file/d/13-YwDTUuXOVsLw0AMEQverztLXVYxFAD/view?usp=sharing" target="_blank" class="btn"><span>Resume</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+        <div class="container">
+            <div class="row" id="skillsContainer">
+                <!-- Skills will be dynamically added here using JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img draggable="false" src="./assets/images/education/ISU.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p>Iowa State University | Junior | GPA: 3.88</p>
+                    <h4>August 2022- December 2025 | Pursuing</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img draggable="false" src="./assets/images/education/ncj.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>High School Diploma (Grade 11 and 12), Computer Science</h3>
+                    <p>The National Pre-University College</p>
+                    <h4>June 2020 - March 2022 | Completed</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img draggable="false" src="./assets/images/education/capitol.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>High School Diploma (Grade 9 and 10), Computer Science</h3>
+                    <p>Capitol Public School</p>
+                    <h4>June 2018 - March 2020 | Completed</h4>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+        <div class="box-container">
+            <!-- Project 1: Cyclone Connect -->
+            <div class="box tilt">
+                <img draggable="false" src="./assets/images/projects/cycloneconnect.png" alt="" />
+                <div class="content">
+                    <div class="tag">
+                        <h3>Cyclone Connect</h3>
+                    </div>
+                    <div class="desc">
+                        <p>A Java-based application using Spring Boot, IntelliJ, MySQL, and Android Studio to enhance campus life by integrating class and work schedules.</p>
+                        <div class="btns">
+                            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 2: AIVIS -->
+            <div class="box tilt">
+                <img draggable="false" src="./assets/images/projects/avis.jpg" alt="" />
+                <div class="content">
+                    <div class="tag">
+                        <h3>AIVIS</h3>
+                    </div>
+                    <div class="desc">
+                        <p>A voice-activated personal assistant application using Python, integrating functionalities like real-time news updates, weather forecasting, and language translation.</p>
+                        <div class="btns">
+                            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 3: Pixel Palace -->
+            <div class="box tilt">
+                <img draggable="false" src="./assets/images/projects/pixelpalace.png" alt="" />
+                <div class="content">
+                    <div class="tag">
+                        <h3>Pixel Palace</h3>
+                    </div>
+                    <div class="desc">
+                        <p>An e-commerce website utilizing React, JavaScript, Node.js, Express, and MongoDB for both frontend and backend architecture.</p>
+                        <div class="btns">
+                            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more-projects">
+                <a href="https://github.com/Abhay-2004" target="_blank" class="btn">
+                    View More Projects <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+        <div class="timeline">
+            <div class="container right">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Iowa State University Book Store- TechCyte Service Center</h2>
+                    </div>
+                    <div class="desc">
+                        <h3>Lead Technician</h3>
+                        <p>July 2024 - Present</p>
+                        <p>- Promoted to Lead Technician at TechCyte Service Center</p>
+                        <p>- Expert in hardware diagnostics and repairs for Dell and Apple devices</p>
+                        <p>- Lead and train new team members</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Iowa State University Book Store - TechCyte Service Center</h2>
+                    </div>
+                    <div class="desc">
+                        <h3>Senior Technician</h3>
+                        <p>December 2023 - July 2024</p>
+                        <p>- Certified in Dell and Apple device repair</p>
+                        <p>- Specialized in hardware and software troubleshooting</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Iowa State University Book Store - TechCyte Service Center</h2>
+                    </div>
+                    <div class="desc">
+                        <h3>IT Technician</h3>
+                        <p>October 2022 - December 2023</p>
+                        <p>- Performed diagnostics and repairs on Dell and Apple devices</p>
+                        <p>- Installed and maintained complex computer hardware and software</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <div class="tag">
+                        <h2>Iowa State University</h2>
+                    </div>
+                    <div class="desc">
+                        <h3>DIS Team Leader</h3>
+                        <p>August 2023</p>
+                        <p>- Facilitated orientation for up to 20 incoming students</p>
+                        <p>- Orchestrated activities fostering diversity and inclusivity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>My Portfolio</h3>
+                <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+                <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+                <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+                <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+                <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+                <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-envelope"></i>Abhay14@iastate.edu</p>
+                <p> <i class="fas fa-map-marked-alt"></i>Ames, Iowa</p>
+                <div class="share">
+                    <a href="https://www.linkedin.com/in/abhay-prasanna-rao" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                    <a href="https://github.com/Abhay-2004" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+                    <a href="mailto:Abhay14@iastate.edu" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+
+                </div>
+            </div>
+        </div>
+        <h1 class="credit">Designed by <a href="https://www.linkedin.com/in/abhay-prasanna-rao"> Abhay Prasanna Rao</a></h1>
+    </section>
+
+    <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/script.js">
+        
+    </script>
+</body>
+</html>
