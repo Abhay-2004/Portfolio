@@ -1258,3 +1258,82 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+.awards {
+  background: #f7f7f7;
+  padding: 5rem 0;
+}
+
+.awards-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.awards-slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.award-slide {
+  min-width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.award-slide img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.award-slide p {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.award-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.award-nav:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.award-nav.prev {
+  left: 1rem;
+}
+
+.award-nav.next {
+  right: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .awards-container {
+      max-width: 90%;
+  }
+  
+  .award-slide p {
+      font-size: 1.4rem;
+  }
+  
+  .award-nav {
+      font-size: 1.5rem;
+      padding: 0.8rem;
+  }
+}
+
+
+
