@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay Prasanna Rao - Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        body {
+            padding-top: 80px;
+        }
+
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            /* Changed from right to left */
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 15px 30px;
+            /* Increased padding for larger button */
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            /* Increased font size */
+            transition: background-color 0.3s ease;
+            z-index: 1000;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+
+        .projects {
+            padding-top: 2rem;
+        }
+
+        .projects-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .project-card {
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+
+        .project-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .project-content {
+            padding: 1.5rem;
+        }
+
+        .project-title {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .project-description {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        .project-link {
+            display: inline-block;
+            background-color: #ff8c00;
+            color: #ffffff;
+            padding: 0.7rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .project-link:hover {
+            background-color: #0056b3;
+        }
+
+        @media (min-width: 768px) {
+            .project-card {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .project-image {
+                width: 40%;
+                height: 300px;
+            }
+
+            .project-content {
+                width: 60%;
+            }
+        }
+        .github-link {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+            background-color: #333;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
+            z-index: 1000;
+        }
+        .github-link:hover {
+            background-color: #0366d6;
+        }
+        .github-link i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html" class="back-button">Back to Home</a>
+    <a href="https://github.com/Abhay-2004" target="_blank" class="github-link">
+        <i class="fab fa-github"></i> GitHub
+    </a>
+
+
+    <section class="projects" id="projects">
+        <h2 class="heading"><i class="fas fa-laptop-code"></i> My <span>Projects</span></h2>
+        <div class="projects-container">
+
+            <!-- Cyclone Connect -->
+            <div class="project-card">
+                <img src="./assets/images/projects/cycloneconnect.png" alt="Cyclone Connect" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Cyclone Connect</h3>
+                    <p class="project-description">A Java-based application using Spring Boot, IntelliJ, MySQL, and
+                        Android Studio to enhance campus life by integrating class and work schedules.</p>
+                    <a href="https://www.youtube.com/watch?v=pDhPGkzWStM&t=631s" target="_blank"
+                        class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- AIVIS -->
+            <div class="project-card">
+                <img src="./assets/images/projects/avis.jpg" alt="AIVIS" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">AIVIS</h3>
+                    <p class="project-description">A voice-activated personal assistant application using Python,
+                        integrating functionalities like real-time news updates, weather forecasting, and language
+                        translation.</p>
+                    <a href="https://github.com/Abhay-2004" target="_blank" class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- Pixel Palace -->
+            <div class="project-card">
+                <img src="./assets/images/projects/pixelpalace.png" alt="Pixel Palace" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Pixel Palace</h3>
+                    <p class="project-description">An e-commerce website utilizing React, JavaScript, Node.js, Express,
+                        and MongoDB for both frontend and backend architecture.</p>
+                    <a href="https://github.com/Abhay-2004/Pixel-Palace" target="_blank" class="project-link">View
+                        More</a>
+                </div>
+            </div>
+            <!-- LEGv8 Disassembler -->
+            <div class="project-card">
+                <img src="./assets/images/projects/legv8diss.svg" alt="LEGv8 Disassembler" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">LEGv8 Disassembler</h3>
+                    <p class="project-description">A powerful tool to reverse-engineer binary files containing LEGv8
+                        instructions, converting machine code to assembly language. This project demonstrates advanced
+                        skills in low-level programming and binary manipulation.</p>
+                    <a href="https://github.com/Abhay-2004/LEGv8-Disassembler" target="_blank" class="project-link">View
+                        More</a>
+                </div>
+            </div>
+
+            <!-- LEGv8 Assembly Insertion Sort -->
+            <div class="project-card">
+                <img src="./assets/images/projects/legv8-insertion-sort-visualization.svg"
+                    alt="LEGv8 Assembly Insertion Sort" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">LEGv8 Assembly Insertion Sort</h3>
+                    <p class="project-description">An implementation of the insertion sort algorithm in LEGv8 assembly
+                        language, demonstrating low-level programming concepts. This project showcases proficiency in
+                        assembly language and algorithm implementation at the machine level.</p>
+                    <a href="https://github.com/Abhay-2004/LEGv8-Assembly-Insertion-Sort" target="_blank"
+                        class="project-link">View More</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./assets/images/projects/socoemp.png" alt="Socio-Economic Factors Project"
+                    class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Socio-Economic Factors Influencing Employment in the United States</h3>
+                    <p class="project-description">This project investigates the impact of socio-economic factors like
+                        education, citizenship, and housing on employment rates across U.S. states. The analysis was
+                        conducted using ACS 2021 data, highlighting key correlations that influence employment dynamics.
+                    </p>
+                    <a href="https://github.com/Abhay-2004/Socio-Economic-Factors-Influencing-Employment-in-the-United-States"
+                        target="_blank" class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- GraphNexus: Advanced Graph Implementation Project -->
+            <div class="project-card">
+                <img src="./assets/images/projects/graphnexus_overview.svg" alt="GraphNexus" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">GraphNexus: Advanced Graph Implementation</h3>
+                    <p class="project-description">A powerful Java library for working with weighted, undirected graphs.
+                        Features include efficient graph operations, advanced algorithms like MST and shortest path
+                        calculations, and support for large-scale graph structures.</p>
+                    <a href="https://github.com/Abhay-2004/GraphNexus-Advanced-Graph-Implementation-Project"
+                        target="_blank" class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- Archived Message Reconstruction -->
+            <div class="project-card">
+                <img src="./assets/images/projects/tree.svg" alt="Archived Message Reconstruction"
+                    class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Archived Message Reconstruction</h3>
+                    <p class="project-description">A Java application for decoding compressed messages stored using a
+                        custom binary tree encoding. This project showcases skills in working with advanced data
+                        structures, recursion, and file handling.</p>
+                    <a href="https://github.com/Abhay-2004/Archived-Message-Reconstruction" target="_blank"
+                        class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- StoutList: A Specialized Linked List Implementation -->
+            <div class="project-card">
+                <img src="./assets/images/projects/stout-list-visualization.svg" alt="StoutList" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">StoutList: Specialized Linked List</h3>
+                    <p class="project-description">A custom implementation of a linked list in Java, featuring
+                        multi-element nodes, efficient space utilization, and sorting capabilities. This project
+                        demonstrates advanced data structure design and algorithm implementation.</p>
+                    <a href="https://github.com/Abhay-2004/StoutList-Specialized-Linked-List" target="_blank"
+                        class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- Sorting Algorithms Comparison -->
+            <div class="project-card">
+                <img src="./assets/images/projects/sorting-algorithms-comparison.svg"
+                    alt="Sorting Algorithms Comparison" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Sorting Algorithms Comparison</h3>
+                    <p class="project-description">A project implementing and comparing four sorting algorithms
+                        (Selection, Insertion, Merge, and Quick Sort) for sorting 2D points. Demonstrates
+                        object-oriented design and algorithm analysis in Java.</p>
+                    <a href="https://github.com/Abhay-2004/Sorting-Algorithms-Comparison" target="_blank"
+                        class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- ISP Business Simulation -->
+            <div class="project-card">
+                <img src="./assets/images/projects/isp-business-simulation.svg" alt="ISP Business Simulation"
+                    class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">ISP Business Simulation</h3>
+                    <p class="project-description">A Java-based simulation modeling an Internet Service Provider's
+                        network over time. Features include cell state transitions, profit calculation, and town
+                        evolution over multiple cycles.</p>
+                    <a href="https://github.com/Abhay-2004/ISP-Business-Simulation" target="_blank"
+                        class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- Model Train Simulation -->
+            <div class="project-card">
+                <img src="./assets/images/projects/model-train-simulation.svg" alt="Model Train Simulation"
+                    class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Model Train Simulation</h3>
+                    <p class="project-description">A Java-based simulation of a model train system featuring various
+                        track layouts, different types of links between track segments, and a graphical user interface
+                        for train movement visualization.</p>
+                    <a href="https://github.com/Abhay-2004/Model-Train-Simulation" target="_blank"
+                        class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- Connect Game -->
+            <div class="project-card">
+                <img src="./assets/images/projects/connect-game.svg" alt="Connect Game" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Connect Game</h3>
+                    <p class="project-description">A Java implementation of a puzzle game similar to 2248, featuring a
+                        graphical user interface. Players connect tiles with matching values or increasing powers of two
+                        to score points and create higher-value tiles.</p>
+                    <a href="https://github.com/Abhay-2004/Connect-Game" target="_blank" class="project-link">View
+                        More</a>
+                </div>
+            </div>
+
+            <!-- Loops Infinity And Beyond -->
+            <div class="project-card">
+                <img src="./assets/images/projects/loops-infinity-beyond.svg" alt="Loops Infinity And Beyond"
+                    class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Loops Infinity And Beyond</h3>
+                    <p class="project-description">A Java utility class demonstrating advanced string manipulation and
+                        pattern recognition techniques, focusing on "flying saucer" patterns within strings.</p>
+                    <a href="https://github.com/Abhay-2004/Loops-Infinity-And-Beyond" target="_blank"
+                        class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- Three-Cushion Billiards Simulator -->
+            <div class="project-card">
+                <img src="./assets/images/projects/three-cushion-billiards.svg" alt="Three-Cushion Billiards Simulator"
+                    class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Three-Cushion Billiards Simulator</h3>
+                    <p class="project-description">A Java application that models the complex game of three-cushion
+                        billiards, demonstrating advanced object-oriented programming concepts and intricate game rule
+                        simulations.</p>
+                    <a href="https://github.com/Abhay-2004/Three-Cushion-Billiards-Simulator" target="_blank"
+                        class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- CameraBattery Simulator -->
+            <div class="project-card">
+                <img src="./assets/images/projects/camera-battery-simulator.svg" alt="CameraBattery Simulator"
+                    class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">CameraBattery Simulator</h3>
+                    <p class="project-description">A Java application that models a removable and rechargeable camera
+                        battery, simulating real-world battery behavior including charging, discharging, and power
+                        management.</p>
+                    <a href="https://github.com/Abhay-2004/CameraBattery-Simulator" target="_blank"
+                        class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- All-In-One Calculator -->
+            <div class="project-card">
+                <img src="./assets/images/projects/all-in-one-calculator.svg" alt="All-In-One Calculator"
+                    class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">All-In-One Calculator</h3>
+                    <p class="project-description">A versatile Python application combining multiple tools including BMI
+                        calculator, temperature converter, and list operations, showcasing modular programming and
+                        various mathematical operations.</p>
+                    <a href="https://github.com/Abhay-2004/All-In-One-Calculator" target="_blank"
+                        class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- Naval Battle -->
+            <div class="project-card">
+                <img src="./assets/images/projects/naval-battle-game.svg" alt="Naval Battle" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Naval Battle</h3>
+                    <p class="project-description">A Python implementation of the classic Battleship game, featuring
+                        player vs computer gameplay, multiple board layouts, and a file-based game board loading system.
+                    </p>
+                    <a href="https://github.com/Abhay-2004/Naval-Battle" target="_blank" class="project-link">View
+                        More</a>
+                </div>
+            </div>
+
+            <!-- TaskFlow -->
+            <div class="project-card">
+                <img src="./assets/images/projects/taskflow.svg" alt="TaskFlow" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">TaskFlow</h3>
+                    <p class="project-description">A command-line task management application built with Python,
+                        allowing users to organize tasks across multiple stages and providing persistent storage for
+                        continuous productivity.</p>
+                    <a href="https://github.com/Abhay-2004/TaskFlow" target="_blank" class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- Dungeon Crawl -->
+            <div class="project-card">
+                <img src="./assets/images/projects/dungeon-crawl-game.svg" alt="Dungeon Crawl" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Dungeon Crawl</h3>
+                    <p class="project-description">An exciting text-based adventure game implemented in Python,
+                        featuring turn-based combat, gold collection, and a shop system for upgrades.</p>
+                    <a href="https://github.com/Abhay-2004/Dungeon-Crawl" target="_blank" class="project-link">View
+                        More</a>
+                </div>
+            </div>
+
+            <!-- NIMGRAB -->
+            <div class="project-card">
+                <img src="./assets/images/projects/nimgrab-game.svg" alt="NIMGRAB" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">NIMGRAB</h3>
+                    <p class="project-description">A Python implementation of a simple two-player strategy game where
+                        players take turns removing items from a pool, showcasing loops, randomization, and basic AI.
+                    </p>
+                    <a href="https://github.com/Abhay-2004/NIMGRAB" target="_blank" class="project-link">View More</a>
+                </div>
+            </div>
+
+            <!-- Magic 9 Ball -->
+            <div class="project-card">
+                <img src="./assets/images/projects/magic-9-ball.svg" alt="Magic 9 Ball" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Magic 9 Ball</h3>
+                    <p class="project-description">A Python script that simulates a magic 8-ball with additional
+                        features, including a calculator and prediction functionality. It demonstrates conditional
+                        logic, user input handling, and basic error checking in Python.</p>
+                    <a href="https://github.com/Abhay-2004/Magic-9-Ball" target="_blank" class="project-link">View
+                        More</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="./assets/images/projects/grade_scale.svg" alt="Grade Calculator" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Grade Calculator</h3>
+                    <p class="project-description">A Python-based tool that converts final points into letter grades. It
+                        features user-friendly continuous grade calculations, error handling, and custom messages for
+                        top performers and those needing improvement.</p>
+                    <a href="https://github.com/Abhay-2004/Grade-Calculator" target="_blank" class="project-link">View
+                        More</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">LEGv8 Assembly Insertion Sort</text>
+  
+  <!-- Memory Layout -->
+  <g transform="translate(50, 60)">
+    <text x="0" y="0" font-family="Arial" font-size="18" fill="#333" font-weight="bold">Memory Layout</text>
+    <rect x="0" y="20" width="200" height="300" fill="#ddd" stroke="#333" stroke-width="2"/>
+    <text x="100" y="40" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Array (512 integers)</text>
+    <line x1="0" y1="60" x2="200" y2="60" stroke="#333" stroke-width="1"/>
+    <text x="100" y="80" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Stack</text>
+    <line x1="0" y1="100" x2="200" y2="100" stroke="#333" stroke-width="1"/>
+    <text x="100" y="120" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">Heap</text>
+  </g>
+  
+  <!-- Procedures -->
+  <g transform="translate(300, 60)">
+    <text x="0" y="0" font-family="Arial" font-size="18" fill="#333" font-weight="bold">Procedures</text>
+    
+    <!-- Main -->
+    <rect x="0" y="20" width="120" height="60" fill="#3498db" stroke="#333" stroke-width="2"/>
+    <text x="60" y="55" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Main</text>
+    
+    <!-- Fill -->
+    <rect x="140" y="20" width="120" height="60" fill="#2ecc71" stroke="#333" stroke-width="2"/>
+    <text x="200" y="55" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Fill</text>
+    
+    <!-- Is_insert -->
+    <rect x="280" y="20" width="120" height="60" fill="#e74c3c" stroke="#333" stroke-width="2"/>
+    <text x="340" y="55" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Is_insert</text>
+    
+    <!-- Is_shift -->
+    <rect x="0" y="100" width="120" height="60" fill="#f39c12" stroke="#333" stroke-width="2"/>
+    <text x="60" y="135" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Is_shift</text>
+    
+    <!-- Insertion_sort -->
+    <rect x="140" y="100" width="120" height="60" fill="#9b59b6" stroke="#333" stroke-width="2"/>
+    <text x="200" y="135" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Insertion_sort</text>
+    
+    <!-- Binary_search -->
+    <rect x="280" y="100" width="120" height="60" fill="#1abc9c" stroke="#333" stroke-width="2"/>
+    <text x="340" y="135" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Binary_search</text>
+    
+    <!-- Procedure Calls -->
+    <line x1="60" y1="80" x2="200" y2="20" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="60" y1="80" x2="200" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="60" y1="80" x2="340" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="200" y1="160" x2="60" y2="100" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="200" y1="160" x2="340" y2="20" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Register Usage -->
+  <g transform="translate(50, 380)">
+    <text x="0" y="0" font-family="Arial" font-size="18" fill="#333" font-weight="bold">Register Usage</text>
+    <rect x="0" y="20" width="700" height="100" fill="#ecf0f1" stroke="#333" stroke-width="2"/>
+    <text x="10" y="40" font-family="Arial" font-size="14" fill="#333">X0-X7: Arguments</text>
+    <text x="10" y="60" font-family="Arial" font-size="14" fill="#333">X9-X15: Caller-saved</text>
+    <text x="10" y="80" font-family="Arial" font-size="14" fill="#333">X19-X28: Callee-saved</text>
+    <text x="10" y="100" font-family="Arial" font-size="14" fill="#333">SP: Stack Pointer</text>
+    <text x="10" y="120" font-family="Arial" font-size="14" fill="#333">LR: Link Register</text>
+  </g>
+  
+  <!-- Sorting Process -->
+  <g transform="translate(50, 500)">
+    <text x="0" y="0" font-family="Arial" font-size="18" fill="#333" font-weight="bold">Sorting Process</text>
+    <rect x="0" y="20" width="100" height="40" fill="#3498db" stroke="#333" stroke-width="2"/>
+    <text x="50" y="45" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Unsorted</text>
+    <polygon points="110,40 130,30 130,50" fill="#333"/>
+    <rect x="140" y="20" width="100" height="40" fill="#f39c12" stroke="#333" stroke-width="2"/>
+    <text x="190" y="45" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Shift</text>
+    <polygon points="250,40 270,30 270,50" fill="#333"/>
+    <rect x="280" y="20" width="100" height="40" fill="#e74c3c" stroke="#333" stroke-width="2"/>
+    <text x="330" y="45" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Insert</text>
+    <polygon points="390,40 410,30 410,50" fill="#333"/>
+    <rect x="420" y="20" width="100" height="40" fill="#2ecc71" stroke="#333" stroke-width="2"/>
+    <text x="470" y="45" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Sorted</text>
+  </g>
+</svg>
