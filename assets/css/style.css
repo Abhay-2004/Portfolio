@@ -1377,3 +1377,7 @@ form .button-area {
   }
 }
 /* awards section ends */
+
+.view-more-projects .btn {
+  margin: 0 10px;  /* Adds some space between the buttons */
+}
