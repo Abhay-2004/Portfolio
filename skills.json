@@ -24,6 +24,10 @@
         "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
     },
     {
+        "name": "R",
+        "icon": "https://img.icons8.com/?size=100&id=CLvQeiwFpit4&format=png&color=000000"
+    },
+    {
         "name": "SQL",
         "icon": "https://img.icons8.com/color/48/000000/sql.png"
     },
@@ -32,16 +36,40 @@
         "icon": "https://img.icons8.com/color/48/000000/react-native.png"
     },
     {
-        "name": "Node.js",
-        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
-    },
-    {
         "name": "Spring Boot",
         "icon": "https://img.icons8.com/color/48/000000/spring-logo.png"
     },
     {
+        "name": ".NET",
+        "icon": "https://img.icons8.com/color/48/000000/net-framework.png"
+    },
+    {
+        "name": "Express.js",
+        "icon": "https://img.icons8.com/color/48/000000/express-js.png"
+    },
+    {
+        "name": "Node.js",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    },
+    {
         "name": "Android Studio",
         "icon": "https://img.icons8.com/fluency/48/000000/android-studio--v3.png"
+    },
+    {
+        "name": "AWS",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "Azure",
+        "icon": "https://img.icons8.com/fluency/48/000000/azure-1.png"
+    },
+    {
+        "name": "Google Cloud",
+        "icon": "https://img.icons8.com/color/48/000000/google-cloud.png"
+    },
+    {
+        "name": "Docker",
+        "icon": "https://img.icons8.com/color/48/000000/docker.png"
     },
     {
         "name": "Git",
@@ -52,6 +80,10 @@
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     },
     {
+        "name": "GitLab",
+        "icon": "https://img.icons8.com/color/48/000000/gitlab.png"
+    },
+    {
         "name": "MySQL",
         "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
     },
@@ -60,7 +92,23 @@
         "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
     },
     {
-        "name": "R",
-        "icon": "https://img.icons8.com/?size=100&id=CLvQeiwFpit4&format=png&color=000000"
+        "name": "Neo4j",
+        "icon": "https://img.icons8.com/color/48/000000/graph.png"
+    },
+    {
+        "name": "MariaDB",
+        "icon": "https://img.icons8.com/color/48/000000/database.png"
+    },
+    {
+        "name": "Machine Learning",
+        "icon": "https://img.icons8.com/color/48/000000/artificial-intelligence.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "Linux",
+        "icon": "https://img.icons8.com/color/48/000000/linux--v1.png"
     }
 ]

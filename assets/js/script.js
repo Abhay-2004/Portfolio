@@ -39,7 +39,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing-text", {
-    strings: ["Web Development", "App Development"],
+    strings: ["AI/ML Development", "Cloud Solutions", "Full-Stack Development", "Software Engineering", "App Development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
