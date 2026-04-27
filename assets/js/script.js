@@ -83,7 +83,7 @@ $(document).ready(function () {
     origin: "top",
     distance: "80px",
     duration: 1000,
-    reset: true,
+    reset: false,
   });
 
   srtop.reveal(".home .content h3", { delay: 200 });
