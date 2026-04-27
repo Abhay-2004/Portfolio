@@ -104,8 +104,32 @@
         "icon": "https://img.icons8.com/color/48/000000/artificial-intelligence.png"
     },
     {
+        "name": "Deep Learning",
+        "icon": "https://img.icons8.com/color/48/000000/brain--v1.png"
+    },
+    {
+        "name": "Computer Vision",
+        "icon": "https://img.icons8.com/color/48/000000/camera--v1.png"
+    },
+    {
         "name": "Bootstrap",
         "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+    {
+        "name": "Terraform",
+        "icon": "https://img.icons8.com/color/48/000000/terraform.png"
+    },
+    {
+        "name": "Redis",
+        "icon": "https://img.icons8.com/color/48/000000/redis.png"
+    },
+    {
+        "name": "Jira",
+        "icon": "https://img.icons8.com/color/48/000000/jira.png"
+    },
+    {
+        "name": "Postman",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png"
     },
     {
         "name": "Linux",
