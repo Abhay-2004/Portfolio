@@ -7,6 +7,7 @@
     <title>Abhay Prasanna Rao - Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/chatbot.css">
 </head>
 
 <body>
@@ -405,14 +406,36 @@
 
     <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
 
+    <!-- Chatbot Bubble -->
+    <div id="chat-bubble" title="Ask about Abhay">
+        <i class="fas fa-comment-dots"></i>
+    </div>
+
+    <!-- Chat Panel -->
+    <div id="chat-panel">
+        <div id="chat-header">
+            <div class="chat-avatar"><i class="fas fa-comment-dots"></i></div>
+            <div class="chat-title">
+                <span>Ask Abhay's Assistant</span>
+                <small>Answers questions about Abhay</small>
+            </div>
+            <button id="chat-close"><i class="fas fa-times"></i></button>
+        </div>
+        <div id="chat-messages"></div>
+        <div id="chat-suggestions"></div>
+        <div id="chat-input-row">
+            <input id="chat-input" type="text" placeholder="Ask me anything..." autocomplete="off" />
+            <button id="chat-send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="assets/js/script.js">
-
-    </script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/chatbot.js"></script>
 </body>
 
 </html>
